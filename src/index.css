@@ -1,0 +1,26 @@
+:root {
+  --background-light: #ffffff;
+  --text-light: #000000;
+  --button-light-bg: #007bff;
+  --button-light-text: #ffffff;
+
+  --background-dark: #121212;
+  --text-dark: #ffffff;
+  --button-dark-bg: #bb86fc;
+  --button-dark-text: #000000;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+
